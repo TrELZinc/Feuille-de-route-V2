@@ -1,1 +1,56 @@
-test
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Feuille de route - Chauffeurs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="assets/logo.jpeg" alt="Logo ELZ" class="logo" />
+    <h1>Feuille de route</h1>
+  </header>
+
+  <main>
+    <form id="form-feuille-route">
+      <label for="date">Date de travail :</label>
+      <input type="date" id="date" name="date" required />
+
+      <label for="nom">Nom complet :</label>
+      <input type="text" id="nom" name="nom" placeholder="Entrez votre nom" required />
+
+      <label for="camion">Choix du camion :</label>
+      <select id="camion" name="camion" required>
+        <option value="">-- Sélectionnez un camion --</option>
+        <option>Camion 1103</option>
+        <option>Camion 1202</option>
+        <option>Camion 1303</option>
+        <option>Camion 1404</option>
+        <option>Camion 1502</option>
+        <option>Camion 1602</option>
+        <option>Camion 1603</option>
+        <option>Camion 1703</option>
+        <option>Camion 1803</option>
+      </select>
+
+      <label for="remorque">Choix de la remorque :</label>
+      <select id="remorque" name="remorque" required>
+        <option value="">-- Sélectionnez une remorque --</option>
+        <option>Remorque 1505</option>
+        <option>Remorque 1605</option>
+        <option>Remorque 1805</option>
+        <option>Remorque 1905</option>
+        <option>Remorque 1906</option>
+        <option>Remorque 2006</option>
+        <option>Remorque 2205</option>
+        <option>Remorque 2405</option>
+        <option>Remorque 2506</option>
+        <option>Remorque 2706</option>
+      </select>
+
+      <button type="submit">Suivant</button>
+    </form>
+  </main>
+</body>
+</html>
